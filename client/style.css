@@ -27,12 +27,12 @@ p {
   margin: 20px 10px;
   text-transform: uppercase;
   outline: none;
-  transition: .2s;
+  transition: 0.2s;
   cursor: pointer;
 }
 
 .btn:hover {
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .text-input {
@@ -44,7 +44,7 @@ p {
   font-family: inherit;
   outline: none;
   opacity: 0.6;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .text-input:focus {
@@ -78,9 +78,13 @@ p {
   align-items: flex-end;
 }
 
+.message--bot {
+  font-style: italic;
+}
+
 .message--received {
-    animation: fadeIn;
-    animation-duration: 3s;
+  animation: fadeIn;
+  animation-duration: 3s;
 }
 
 .message__author {
